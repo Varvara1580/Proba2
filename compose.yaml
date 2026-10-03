@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    container_name: fastapi-app2
+    container_name: fastapi-app3
     restart: unless-stopped
     ports:
       - "127.0.0.1:8001:8000"
